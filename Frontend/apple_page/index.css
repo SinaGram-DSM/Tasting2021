@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+
+.Container{
+    width: 100%;
+    height: 150vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+.Container:nth-of-type(2n){
+    background-color: white;
+    height: 100vh;
+}
+
+.PhoneImg{
+    width: 0%;
+    position: absolute;
+}
+
+.IntroMent{
+    color: black;
+    font-size: 7vmin;
+    font-weight: bold;
+    z-index: 500;
+}
+
+.Btn{
+    width: 350px;
+    height: 60px;
+    border-radius:30px;
+    z-index: 500;
+    border:none;
+    background-color: black;
+    font-size: 3vmin;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.CharacterPicture{
+    width: 30%;
+    bottom: 0;
+    position: absolute;
+}
+
+.Ment{
+    color:black;
+    margin-right: 40%;
+    font-weight: bold;
+    opacity: 0;
+}
