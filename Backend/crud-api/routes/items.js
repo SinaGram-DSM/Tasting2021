@@ -5,9 +5,9 @@ const router = express.Router();
 let data = [
     { id: 1, title: '안녕하세요',  order: 1, completed: true, createdOn: new Date() },
     { id: 2, title: '시나그램 신입생 여러분',     order: 2, completed: true, createdOn: new Date() },
-    { id: 3, title: '백엔드 어떤 것 같아요?', order: 3, completed: true, createdOn: new Date() },
-    { id: 4, title: '사실 잘 모르겠죠?', order: 4, completed: false, createdOn: new Date() },
-    { id: 5, title: '저도 잘 모르겠어요', order: 5, completed: false, createdOn: new Date() },
+    { id: 3, title: '마지막 시간이니까 ', order: 3, completed: true, createdOn: new Date() },
+    { id: 4, title: '힘내고', order: 4, completed: false, createdOn: new Date() },
+    { id: 5, title: '파이팅합시다', order: 5, completed: false, createdOn: new Date() },
 ];
 
 // READ
